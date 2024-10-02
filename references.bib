@@ -1,0 +1,65 @@
+---
+title: "Analysis of Data"
+author: "David H. Ardell"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+html_document:
+bibliography: references.bib
+---
+# Introduction
+XX is AA and BB [@lawrence_tsfm_2021].
+@woodworth_biostatistics_2005 describes an
+introduction to
+Bayesian Biostatistics.
+# References
+
+@article{lawrence_tsfm_2021,
+title = {{tSFM} 1.0: {tRNA} {Structure}-{Function} {Mapper}},
+volume = {37},
+issn = {1367-4811},
+shorttitle = {{tSFM} 1.0},
+doi = {10.1093/bioinformatics/btab247},
+abstract = {MOTIVATION: Structure-conditioned information statistics have proven useful to predict
+and visualize tRNA Class-Informative Features (CIFs) and their evolutionary divergences. Although
+permutation p-values can quantify the significance of CIF divergences between two taxa, their naive
+Monte Carlo approximation is slow and inaccurate. The Peaks-over-Threshold approach of Knijnenburg et
+al. (2009) promises improvements to both speed and accuracy of permutation p-values, but has no
+publicly available API.
+AVAILABILITY AND IMPLEMENTATION: We present tRNA Structure-Function Mapper (tSFM) v1.0, an open-
+source, multi-threaded application that efficiently computes, visualizes, and assesses significance
+of single- and paired-site CIFs and their evolutionary divergences for any RNA, protein, gene or
+genomic element sequence family. multiple estimators of permutation p-values for CIF evolutionary
+divergences are provided along with condidence intervals. tSFM is implemented in Python 3 with
+compiled C extensions and is freely available through GitHub (https://github.com/tlawrence3/tSFM) and
+PyPI.
+SUPPLEMENTARY INFORMATION: Supplementary materials are available at Bioinformatics online.},
+language = {eng},
+number = {20},
+journal = {Bioinformatics (Oxford, England)},
+author = {Lawrence, Travis J. and Hadi-Nezhad, Fatemeh and Grosse, Ivo and Ardell, David H.},
+month = apr,
+year = {2021},
+pmid = {33904572},
+pmcid = {PMC8545343},
+pages = {3654--3656},
+}
+@book{woodworth_biostatistics_2005,
+address = {Hoboken, N.J},
+series = {Wiley series in probability and statistics.},
+title = {Biostatistics : a {Bayesian} introduction},
+isbn = {0-471-46842-8},
+abstract = {"Biostatistics: A Bayesian Introduction offers a pioneering approach by presenting the
+foundations of biostatistics through the Bayesian lens. Using easily understood, classic Dutch Book
+thought experiments to derive subjective probability from a simple principle of rationality, the book
+connects statistical science with scientific reasoning. The author shows how to compute, interpret,
+and report Bayesian statistical analyses in practice, and illustrates how to reinterpret traditional
+statistical reporting - such as confidence intervals, margins of error, and one-sided p-values - in
+Bayesian terms."},
+language = {eng},
+publisher = {Wiley-Interscience},
+author = {Woodworth, George G.},
+year = {2005},
+lccn = {2004047408},
+note = {Publication Title: Biostatistics : a Bayesian introduction},
+keywords = {Théorie de la décision bayésienne},
+}
